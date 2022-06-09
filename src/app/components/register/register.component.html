@@ -1,0 +1,26 @@
+<div class="formulario">
+  <h2>Register</h2>
+  <form novalidate (ngSubmit)="onSubmit()" [formGroup]="userRegisterForm">
+    <fieldset>
+      <label for="username">Username:</label>
+      <input type="text" id="username" formControlName="username" />
+    </fieldset>
+    <fieldset>
+      <label for="email">Email:</label>
+      <input type="email" id="email" formControlName="email" />
+    </fieldset>
+    <fieldset>
+      <label for="password">Password:</label>
+      <input type="password" id="password" formControlName="password" />
+    </fieldset>
+    <fieldset>
+      <label for="passwordRepeat">Repeat your password:</label>
+      <input
+        type="password"
+        id="passwordRepeat"
+        formControlName="passwordRepeat"
+      />
+    </fieldset>
+    <button type="submit" [disabled]="!userRegisterForm.valid">submit</button>
+  </form>
+</div>

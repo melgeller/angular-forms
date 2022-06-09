@@ -1,0 +1,55 @@
+.formulario{
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    h2{
+        font-size: xx-large;
+        background-color: white;
+        border-radius: 100px;
+        font-weight:bold;
+    }
+
+    fieldset{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin:20px;
+        background-color: white;
+        width: 500px;
+        height: 100px;
+        border-radius: 30px;
+        border: 6px solid rgb(129, 79, 179);
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        font-weight:bolder;
+    }
+    input{
+        width: 300px;
+        height: 30px;
+        font-size: large;
+        margin: 20px;
+    }
+    label{
+        margin-top: 10px;
+    }
+    button{
+        width: 200px;
+        height: 50px;
+        font-size: x-large;
+        border-radius: 30px;
+        border: 6px solid rgb(129, 79, 179);
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        margin-top: 15px;
+
+    }
+  
+}
